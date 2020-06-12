@@ -16,3 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/homepage', 'HomepageController@index');
+
+Route::get('/searchpage', 'SearchpageController@index');
+
+Route::get('/owner', 'OwnerController@index');
+
+Route::get('/dog', 'DogController@index');
+
+
