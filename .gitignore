@@ -12,6 +12,8 @@ npm-debug.log
 yarn-error.log
 /public/js
 /public/css
-/public/images
+/public/img
 /public/mix-manifest.json
+
+
 
