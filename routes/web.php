@@ -21,8 +21,8 @@ Route::get('/homepage', 'HomepageController@index');
 
 Route::get('/searchpage', 'SearchpageController@index');
 
-Route::get('/owner', 'OwnerController@index');
+Route::get('/clients', 'ClientController@index');
 
-Route::get('/dog', 'DogController@index');
+Route::get('/pets', 'PetController@index');
 
 
