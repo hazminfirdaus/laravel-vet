@@ -1,1 +1,79 @@
-//
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color:rgba($color: grey, $alpha: 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  margin: 0 auto;
+  margin-top: 25px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5rem;
+}
+
+a {
+  color: lightseagreen;
+  text-decoration: none;
+  border: 1px solid darkolivegreen;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+a:hover {
+  color: white;
+  background-color: lightseagreen;
+}
+
+.logo {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 0;
+}
+
+//HOMEPAGE
+.title {
+  line-height: 10px;
+  font-size: 2.5em;
+  font-family: "Fredericka the Great", Arial;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 100px;
+}
+
+//PETS
+.pets {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    text-align: center;
+    line-height: 2px;
+}
+
+.pets--photo {
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.pets--photo:hover {
+    opacity: 0.5;
+}
+
+//FOOTER
+footer {
+    text-align: center;
+}

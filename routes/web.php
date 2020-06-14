@@ -17,12 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/homepage', 'HomepageController@index');
+Route::get('/homepage', 'HomepageController@index')->name('homepage.index');
 
-Route::get('/searchpage', 'SearchpageController@index');
+Route::get('/searchpage', 'SearchpageController@index')->name('searchpage.index');
 
-Route::get('/clients', 'ClientController@index');
+Route::get('/clients', 'ClientController@index')->name('clients.index');
 
-Route::get('/pets', 'PetController@index');
+Route::get('/pets', 'PetController@index')->name('pets.index');
 
 

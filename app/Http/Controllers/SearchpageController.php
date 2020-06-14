@@ -8,6 +8,6 @@ class SearchpageController extends Controller
 {
   public function index()
   {
-    return "Hello from SearchpageController";
+    return view('searchpage.index');
   }
 }
