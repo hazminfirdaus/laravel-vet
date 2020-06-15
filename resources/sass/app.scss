@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color:rgba($color: grey, $alpha: 0.1);
+  background-color:rgb(243, 243, 235);
 }
 
 nav {
@@ -18,8 +18,9 @@ nav {
 }
 
 a {
-  color: lightseagreen;
+  color:rgb(0, 55, 76);
   text-decoration: none;
+  font-weight: bold;
   border: 1px solid darkolivegreen;
   border-radius: 5px;
   padding: 5px;
@@ -28,27 +29,29 @@ a {
 
 a:hover {
   color: white;
-  background-color: lightseagreen;
-}
-
-.logo {
-  display: flex;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-  text-align: center;
-  padding-top: 50px;
-  margin-bottom: 0;
+  background-color:rgb(116, 148, 156);
 }
 
 //HOMEPAGE
+.title--container {
+    margin-top: 150px;
+}
+.logo {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
 .title {
   line-height: 10px;
   font-size: 2.5em;
   font-family: "Fredericka the Great", Arial;
   text-align: center;
   margin: 0;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
+  margin-top: -25px;
 }
 
 //PETS
@@ -64,6 +67,7 @@ a:hover {
 
 .pets--photo {
     width: 250px;
+    height: 250px;
     border: 1px solid black;
     border-radius: 5px;
     margin: 0 auto;
